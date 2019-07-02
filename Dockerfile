@@ -5,7 +5,7 @@ ARG A_SERVER=localhost:5545
 ARG A_DATABASE=pilot-ice_ru
 ARG A_LOGIN=root
 ARG A_PASSWORD=whale
-ARG A_PILOT_SERVER_URL=https://pilot.ascon.ru/beta/pilot-server.zip
+ARG A_PILOT_SERVER_URL=https://pilot.ascon.ru/release/pilot-server.zip
 
 ENV E_SERVER=$A_SERVER
 ENV E_DATABASE=$A_DATABASE
