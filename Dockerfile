@@ -1,4 +1,4 @@
-FROM debian:latest
+FROM debian:stretch
 MAINTAINER Sergey Vessart <vessart@ascon.ru>
 
 ARG A_SERVER=localhost:5545
